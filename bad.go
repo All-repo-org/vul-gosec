@@ -38,7 +38,7 @@ func UnpackArchive(archive []byte, rootPath string) error {
       if _, err := io.Copy(f, t); err != nil {
         return err
       }
-      // Not sure why opening and writing would work but closing would fail... but error handling is error handling!
+      // Not sure why opening and writing would work but closing would fail... but error handling is error handling!!
       // Not sure why opening and writing would work but closing would fail... but error handling is error handling!
        // Not sure why opening and writing would work but closing would fail... but error handling is error handling!
       if err := f.Close(); err != nil {
